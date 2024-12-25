@@ -186,6 +186,11 @@ function App() {
                 =
             </button>
 
+            <footer className="footer">
+                <p>Developed by Victor Mazzola</p>
+            </footer>
+
+
         </div>
     )
 }
