@@ -12,7 +12,7 @@ export default defineConfig({
         short_name: 'Calculator',
         description: 'A simple calculator app built with React',
         theme_color: '#00AAFF',
-        background_color: '#00FF6C',
+        background_color: '#00D3A8',
         display: 'standalone',
         icons: [
           {
