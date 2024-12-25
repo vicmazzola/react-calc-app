@@ -1,3 +1,5 @@
+import "./index.css";
+
 function App () {
     return (
         <div className="calculator-grid">
@@ -16,6 +18,14 @@ function App () {
             <button>6</button>
             <button>7</button>
             <button>8</button>
+            <button>9</button>
+            <button>-</button>
+            <button>.</button>
+            <button>0</button>
+            <button className="span-two">=</button>
+
         </div>
     )
 }
+
+export default App;
