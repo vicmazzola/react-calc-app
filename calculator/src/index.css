@@ -73,6 +73,26 @@ body {
 }
 
 
+/* For larger phones (414px and above) */
+@media (min-width: 414px) and (max-width: 768px) {
+  .calculator-grid {
+    grid-template-columns: repeat(4, 6.5rem);
+    grid-template-rows: minmax(7.5rem, auto) repeat(5, 6.5rem);
+  }
+
+  .calculator-grid > button {
+    font-size: 2.2rem;
+  }
+
+  .output .previous-operand {
+    font-size: 1.6rem;
+  }
+
+  .output .current-operand {
+    font-size: 2.7rem;
+  }
+}
+
 /* For tablets (768px and below) */
 @media (max-width: 768px) {
   .calculator-grid {
